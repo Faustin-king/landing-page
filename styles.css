@@ -2,11 +2,14 @@ body {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+    background-image: url(lussier.jpg);
+
    
 }
 
 .hero {
-    background: #1F2937;
+    /* change hero background*/
+    /*background: #1F2937;*/
     height: 400px;
 }
 
@@ -24,10 +27,11 @@ body {
 .img {
     display: flex;
     gap: 30px;
-    height: 150px;
+    height: 250px;
     margin-top: 50px;
     width: 400px;
-    background:rgb(63, 61, 61);
+    /*background:rgb(63, 61, 61);*/
+    background-image: url(billy.jpg);
 }
 
  .para {
